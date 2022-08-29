@@ -20,15 +20,13 @@ const ProductImage=({featured_image,image,feturedImageUpdate})=> {
             speed: 800,
             pager: false,
          });
-
          $('#lightSlider').lightSlider({
             gallery: true,
             item: 1,
             loop:true,
             slideMargin: 0,
             thumbItem: 9
-        });
-         
+        });         
 
        },500)
      
