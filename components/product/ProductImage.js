@@ -7,8 +7,7 @@ const ProductImage=({featured_image,image,feturedImageUpdate})=> {
       const width = hasWindow ? window.innerWidth : null;
     
     useEffect(()=>{
-       setTimeout(()=>{
-      
+       setTimeout(()=>{      
          $('.bxslider').bxSlider({
             mode: 'horizontal',
             moveSlides: 1,
